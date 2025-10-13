@@ -371,7 +371,7 @@ instance value ~ Value => KeyValue Value (KM.KeyMap value) where
     explicitToField f name value = KM.singleton name (f value)
     {-# INLINE explicitToField #-}
 
--- | An optional key-value pair for envoding to a JSON object
+-- | An optional key-value pair for encoding to a JSON object
 --
 -- @since 2.2.0.0
 --
